@@ -1,0 +1,105 @@
+/* Website background */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(
+        to bottom,
+        #c2185b 0%,
+        #e879ad 45%,
+        #fde2ee 100%
+    );
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #0b0b0b;
+    margin: 0;
+    line-height: 1.6;
+    min-height: 100vh;
+}
+
+/* Header */
+header {
+    background-color: rgba(157, 20, 81, 0.85);
+    color: white;
+    text-align: center;
+    padding: 25px 20px;
+}
+
+/* Navigation menu */
+nav a {
+    color: rgb(23, 22, 22);
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+}
+
+nav a:hover,
+nav a.active {
+    background-color: #f45eb3;
+    border-radius: 5px;
+}
+
+/* Main content */
+main {
+    background-color: transparent;
+    max-width: 850px;
+    margin: 25px auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: none;
+}
+}
+
+/* Headings */
+h2 {
+    color: #0b0b0b;
+}
+
+h3 {
+    color: #8064a2;
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Contact form */
+input,
+textarea {
+    padding: 10px;
+    margin: 8px 0 15px;
+    max-width: 100%;
+}
+
+button {
+    background-color: #e640a4;
+    color: rgb(142, 46, 119);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #fa81db;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    border-top: 1px solid #0f0f0f;
+}
+
+/* Mobile display */
+@media (max-width: 600px) {
+    main {
+        margin: 12px;
+        padding: 15px;
+    }
+
+    header h1 {
+        font-size: 28px;
+    }
+}
